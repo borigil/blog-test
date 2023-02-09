@@ -1,6 +1,6 @@
 <template>
   <div>
-    borigil's blog
+    borigil's blog test page
   </div>
 </template>
 
