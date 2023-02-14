@@ -4,7 +4,7 @@ export default {
   target: 'static',
 
   router: {
-    base: '/borigil.github.io/' // github repository 이름 넣기
+    base: '/' // github repository 이름 넣기
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -55,5 +55,8 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+
+  publicPath: '/',
+  outputDir: 'docs'
 }
