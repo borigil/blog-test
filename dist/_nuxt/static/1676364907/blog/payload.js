@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/blog", {data:[{articles:[{slug:"2023-02-13-markdown-guide",description:"markdown 사용법",title:"markdown guide",date:"2023-02-13T00:00:00.000Z",author:"borigil",draft:false},{slug:"2023-03-14-nuxt-intialize",description:"Nuxtjs 설치 및 초기세팅",title:"Nuxt 시작하기",date:"2023-03-14T00:00:00.000Z",draft:true}],_img:{}}],fetch:{},mutations:void 0});

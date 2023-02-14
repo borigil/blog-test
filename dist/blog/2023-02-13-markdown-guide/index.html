@@ -1,0 +1,240 @@
+<!doctype html>
+<html data-n-head-ssr lang="ko" data-n-head="%7B%22lang%22:%7B%22ssr%22:%22ko%22%7D%7D">
+  <head>
+    <title>markdown guide - borigil blog</title><meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1"><meta data-n-head="ssr" name="format-detection" content="telephone=no"><meta data-n-head="ssr" data-hid="description" name="description" content="markdown 사용법"><link data-n-head="ssr" rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="preload" href="/_nuxt/9b26931.js" as="script"><link rel="preload" href="/_nuxt/94fa5ae.js" as="script"><link rel="preload" href="/_nuxt/91baf54.js" as="script"><link rel="preload" href="/_nuxt/2d0c699.js" as="script"><link rel="preload" href="/_nuxt/98c23f5.js" as="script"><link rel="preload" href="/_nuxt/e1cd483.js" as="script"><style data-vue-ssr-id="17bc9ac2:0 2699dab3:0 46f23c9d:0 d819782c:0 23def6cc:0">@tailwind base;@tailwind components;@tailwind utilities;.nuxt-link-exact-active{@apply text-blue-500;}code[class*=language-],pre[class*=language-]{word-wrap:normal;background:0 0;color:#f8f8f2;font-family:Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;-webkit-hyphens:none;hyphens:none;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;text-align:left;text-shadow:0 1px rgba(0,0,0,.3);white-space:pre;word-break:normal;word-spacing:normal}pre[class*=language-]{border-radius:.3em;margin:.5em 0;overflow:auto;padding:1em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#282a36}:not(pre)>code[class*=language-]{border-radius:.3em;padding:.1em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#6272a4}.token.punctuation{color:#f8f8f2}.namespace{opacity:.7}.token.constant,.token.deleted,.token.property,.token.symbol,.token.tag{color:#ff79c6}.token.boolean,.token.number{color:#bd93f9}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#50fa7b}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url,.token.variable{color:#f8f8f2}.token.atrule,.token.attr-value,.token.class-name,.token.function{color:#f1fa8c}.token.keyword{color:#8be9fd}.token.important,.token.regex{color:#ffb86c}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}.nuxt-progress{background-color:#000;height:2px;left:0;opacity:1;position:fixed;right:0;top:0;transition:width .1s,opacity .4s;width:0;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}.nuxt-link-exact-active{@apply text-indigo-600;}.nuxt-content h2{font-size:28px;font-weight:700}.nuxt-content h3{font-size:22px;font-weight:700}.nuxt-content p{margin-bottom:20px}</style><link rel="preload" href="/_nuxt/static/1676364907/blog/2023-02-13-markdown-guide/state.js" as="script"><link rel="preload" href="/_nuxt/static/1676364907/blog/2023-02-13-markdown-guide/payload.js" as="script"><link rel="preload" href="/_nuxt/static/1676364907/manifest.js" as="script">
+  </head>
+  <body>
+    <div data-server-rendered="true" id="__nuxt"><!----><div id="__layout"><section class="w-full px-6 pb-12 antialiased bg-white"><div class="mx-auto max-w-8xl"><nav class="md:max-w-5xl mx-auto sticky top-0 z-50 max-w-screen-lg mx-auto"><div class="bg-white flex flex-wrap items-center justify-end px-10 md:py-0 py-2 overflow-hidden border-b border-gray-200 font-2xl sm:px-4 md:overflow-visible md:px-2"><input type="checkbox" id="menu-btn" class="menu-btn hidden"> <label for="menu-btn" class="menu-icon block cursor-pointer md:hidden px-2 relative select-none"><span class="bg-grey-darkest flex items-center relative"></span></label> <ul class="flex justify-center list-reset m-0 w-full md:w-auto"><li><a href="/" class="block md:inline-block px-2 py-3 no-underline text-grey-darkest hover:text-grey-darker font-midium text-lg md:text-base nuxt-link-active">
+          about
+        </a></li><li><a href="/blog" class="block md:inline-block px-2 py-3 no-underline text-grey-darkest hover:text-grey-darker font-midium text-lg md:text-base nuxt-link-active">
+          blog
+        </a></li><li><a href="/projects" class="block md:inline-block px-2 py-3 no-underline text-grey-darkest hover:text-grey-darker font-midium text-lg md:text-base">
+          projects
+        </a></li></ul></div></nav> <div class="px-4 mx-auto sm:px-6 xl:max-w-5xl xl:px-0 mt-10"><p class="text-center font-bold my-5 text-indigo-500">
+    February 13, 2023
+  </p> <h1 class="text-4xl text-gray-700 font-extrabold mb-10 text-center">
+    markdown guide
+  </h1> <div class="flex items-center font-medium mt-6 sm:mx-3 justify-center"><img src="/_nuxt/image/f10964.png" alt="" loading="lazy" class="mr-3 w-10 h-10 rounded-full bg-slate-50 dark:bg-slate-800"> <div><div class="text-slate-900 dark:text-slate-200">
+        borigil
+      </div> <a target="_blank" href="#" class="text-sky-500 hover:text-sky-600 dark:text-sky-400">
+        @borigil
+      </a></div></div> <img src="https://taewanmerepo.github.io/common/markdown.png" class="mx-auto w-4/5 my-10 rounded-md drop-shadow-sm"> <div class="prose min-w-full p-10 mx-auto nuxt-content"><h1 id="javascript-source-code"><a href="#javascript-source-code" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>javascript source code</h1>
+<div class="nuxt-content-highlight"><pre class="line-numbers language-javascript"><code><span class="token punctuation">{</span>
+  <span class="token string-property property">"firstName"</span><span class="token operator">:</span> <span class="token string">"John"</span><span class="token punctuation">,</span>
+  <span class="token string-property property">"lastName"</span><span class="token operator">:</span> <span class="token string">"Smith"</span><span class="token punctuation">,</span>
+  <span class="token string-property property">"age"</span><span class="token operator">:</span> <span class="token number">25</span>
+<span class="token punctuation">}</span>
+</code></pre></div>
+<hr>
+<h2>.</h2>
+<h1 id="h1-heading-8-"><a href="#h1-heading-8-" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>h1 Heading 8-)</h1>
+<h2 id="h2-heading"><a href="#h2-heading" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>h2 Heading</h2>
+<h3 id="h3-heading"><a href="#h3-heading" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>h3 Heading</h3>
+<h4 id="h4-heading"><a href="#h4-heading" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>h4 Heading</h4>
+<h5 id="h5-heading"><a href="#h5-heading" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>h5 Heading</h5>
+<h6 id="h6-heading"><a href="#h6-heading" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>h6 Heading</h6>
+<h2 id="horizontal-rules"><a href="#horizontal-rules" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Horizontal Rules</h2>
+<hr>
+<hr>
+<hr>
+<h2 id="typographic-replacements"><a href="#typographic-replacements" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Typographic replacements</h2>
+<p>Enable typographer option to see result.</p>
+<p>(c) (C) (r) (R) (tm) (TM) (p) (P) +-</p>
+<p>test.. test... test..... test?..... test!....</p>
+<p>!!!!!! ???? ,, -- ---</p>
+<p>"Smartypants, double quotes" and 'single quotes'</p>
+<h2 id="emphasis"><a href="#emphasis" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Emphasis</h2>
+<p><strong>This is bold text</strong></p>
+<p><strong>This is bold text</strong></p>
+<p><em>This is italic text</em></p>
+<p><em>This is italic text</em></p>
+<p><del>Strikethrough</del></p>
+<h2 id="blockquotes"><a href="#blockquotes" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Blockquotes</h2>
+<blockquote>
+<p>Blockquotes can also be nested...</p>
+<blockquote>
+<p>...by using additional greater-than signs right next to each other...</p>
+<blockquote>
+<p>...or with spaces between arrows.</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="lists"><a href="#lists" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Lists</h2>
+<p>Unordered</p>
+<ul>
+<li>Create a list by starting a line with <code>+</code>, <code>-</code>, or <code>*</code></li>
+<li>Sub-lists are made by indenting 2 spaces:
+<ul>
+<li>Marker character change forces new list start:
+<ul>
+<li>Ac tristique libero volutpat at</li>
+</ul>
+<ul>
+<li>Facilisis in pretium nisl aliquet</li>
+</ul>
+<ul>
+<li>Nulla volutpat aliquam velit</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Very easy!</li>
+</ul>
+<p>Ordered</p>
+<ol>
+<li>
+<p>Lorem ipsum dolor sit amet</p>
+</li>
+<li>
+<p>Consectetur adipiscing elit</p>
+</li>
+<li>
+<p>Integer molestie lorem at massa</p>
+</li>
+<li>
+<p>You can use sequential numbers...</p>
+</li>
+<li>
+<p>...or keep all the numbers as <code>1.</code></p>
+</li>
+</ol>
+<p>Start numbering with offset:</p>
+<ol start="57">
+<li>foo</li>
+<li>bar</li>
+</ol>
+<h2 id="code"><a href="#code" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Code</h2>
+<p>Inline <code>code</code></p>
+<p>Indented code</p>
+<div class="nuxt-content-highlight"><pre class="line-numbers language-text"><code>// Some comments
+line 1 of code
+line 2 of code
+line 3 of code
+</code></pre></div>
+<p>Block code "fences"</p>
+<div class="nuxt-content-highlight"><pre class="line-numbers language-text"><code>Sample text here...
+</code></pre></div>
+<p>Syntax highlighting</p>
+<div class="nuxt-content-highlight"><pre class="line-numbers language-js"><code><span class="token keyword">var</span> <span class="token function-variable function">foo</span> <span class="token operator">=</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token parameter">bar</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword control-flow">return</span> bar<span class="token operator">++</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+
+<span class="token console class-name">console</span><span class="token punctuation">.</span><span class="token method function property-access">log</span><span class="token punctuation">(</span><span class="token function">foo</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div>
+<h2 id="tables"><a href="#tables" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Tables</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Option</th><th>Description</th></tr></thead><tbody><tr><td>data</td><td>path to data files to supply the data that will be passed into templates.</td></tr><tr><td>engine</td><td>engine to be used for processing templates. Handlebars is the default.</td></tr><tr><td>ext</td><td>extension to be used for dest files.</td></tr></tbody></table>
+<p>Right aligned columns</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th align="right">Option</th><th align="right">Description</th></tr></thead><tbody><tr><td align="right">data</td><td align="right">path to data files to supply the data that will be passed into templates.</td></tr><tr><td align="right">engine</td><td align="right">engine to be used for processing templates. Handlebars is the default.</td></tr><tr><td align="right">ext</td><td align="right">extension to be used for dest files.</td></tr></tbody></table>
+<h2 id="links"><a href="#links" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Links</h2>
+<p><a href="http://dev.nodeca.com" rel="nofollow noopener noreferrer" target="_blank">link text</a></p>
+<p><a href="http://nodeca.github.io/pica/demo/" rel="nofollow noopener noreferrer" target="_blank" title="title text!">link with title</a></p>
+<p>Autoconverted link <a href="https://github.com/nodeca/pica" rel="nofollow noopener noreferrer" target="_blank">https://github.com/nodeca/pica</a> (enable linkify to see)</p>
+<h2 id="images"><a href="#images" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Images</h2>
+<p><img alt="Minion" src="https://octodex.github.com/images/minion.png">
+<img alt="Stormtroopocat" src="https://octodex.github.com/images/stormtroopocat.jpg" title="The Stormtroopocat"></p>
+<p>Like links, Images also have a footnote style syntax</p>
+<p><img alt="Alt text" src="https://octodex.github.com/images/dojocat.jpg" title="The Dojocat"></p>
+<p>With a reference later in the document defining the URL location:</p>
+<h2 id="plugins"><a href="#plugins" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a>Plugins</h2>
+<p>The killer feature of <code>markdown-it</code> is very effective support of
+<a href="https://www.npmjs.org/browse/keyword/markdown-it-plugin" rel="nofollow noopener noreferrer" target="_blank">syntax plugins</a>.</p>
+<h3 id="emojies"><a href="#emojies" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a><a href="https://github.com/markdown-it/markdown-it-emoji" rel="nofollow noopener noreferrer" target="_blank">Emojies</a></h3>
+<blockquote>
+<p>Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:</p>
+<p>Shortcuts (emoticons): :-) :-( 8-) ;)</p>
+</blockquote>
+<p>see <a href="https://github.com/markdown-it/markdown-it-emoji#change-output" rel="nofollow noopener noreferrer" target="_blank">how to change output</a> with twemoji.</p>
+<h3 id="subscript--superscript"><a href="#subscript--superscript" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a><a href="https://github.com/markdown-it/markdown-it-sub" rel="nofollow noopener noreferrer" target="_blank">Subscript</a> / <a href="https://github.com/markdown-it/markdown-it-sup" rel="nofollow noopener noreferrer" target="_blank">Superscript</a></h3>
+<ul>
+<li>19^th^</li>
+<li>H<del>2</del>O</li>
+</ul>
+<h3 id="ins"><a href="#ins" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a><a href="https://github.com/markdown-it/markdown-it-ins" rel="nofollow noopener noreferrer" target="_blank">&lt;ins></a></h3>
+<p>++Inserted text++</p>
+<h3 id="mark"><a href="#mark" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a><a href="https://github.com/markdown-it/markdown-it-mark" rel="nofollow noopener noreferrer" target="_blank">&lt;mark></a></h3>
+<p>==Marked text==</p>
+<h3 id="footnotes"><a href="#footnotes" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a><a href="https://github.com/markdown-it/markdown-it-footnote" rel="nofollow noopener noreferrer" target="_blank">Footnotes</a></h3>
+<p>Footnote 1 link<sup id="fnref-first"><a href="#fn-first" class="footnote-ref">first</a></sup>.</p>
+<p>Footnote 2 link<sup id="fnref-second"><a href="#fn-second" class="footnote-ref">second</a></sup>.</p>
+<p>Inline footnote^[Text of inline footnote] definition.</p>
+<p>Duplicated footnote reference<sup id="fnref-second"><a href="#fn-second" class="footnote-ref">second</a></sup>.</p>
+<h3 id="definition-lists"><a href="#definition-lists" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a><a href="https://github.com/markdown-it/markdown-it-deflist" rel="nofollow noopener noreferrer" target="_blank">Definition lists</a></h3>
+<p>Term 1</p>
+<p>: Definition 1
+with lazy continuation.</p>
+<p>Term 2 with <em>inline markup</em></p>
+<p>: Definition 2</p>
+<div class="nuxt-content-highlight"><pre class="line-numbers language-text"><code>    { some code, part of Definition 2 }
+
+Third paragraph of definition 2.
+</code></pre></div>
+<p><em>Compact style:</em></p>
+<p>Term 1
+~ Definition 1</p>
+<p>Term 2
+~ Definition 2a
+~ Definition 2b</p>
+<h3 id="abbreviations"><a href="#abbreviations" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a><a href="https://github.com/markdown-it/markdown-it-abbr" rel="nofollow noopener noreferrer" target="_blank">Abbreviations</a></h3>
+<p>This is HTML abbreviation example.</p>
+<p>It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.</p>
+<p>*[HTML]: Hyper Text Markup Language</p>
+<h3 id="custom-containers"><a href="#custom-containers" aria-hidden="true" tabindex="-1"><span class="icon icon-link"></span></a><a href="https://github.com/markdown-it/markdown-it-container" rel="nofollow noopener noreferrer" target="_blank">Custom containers</a></h3>
+<p>::: warning
+<em>here be dragons</em>
+:::</p>
+<div class="footnotes">
+<hr>
+<ol>
+<li id="fn-first">
+<p>Footnote <strong>can have markup</strong></p>
+<p>and multiple paragraphs.<a href="#fnref-first" class="footnote-backref">↩</a></p>
+</li>
+<li id="fn-second">
+<p>Footnote text.<a href="#fnref-second" class="footnote-backref">↩</a></p>
+</li>
+</ol>
+</div></div></div> <footer><div class="flex flex-col items-center mt-16"><div class="flex mb-2 space-x-2 text-sm text-gray-500 dark:text-gray-400"><div>copyleft © 2023</div> <div>-</div> <a href="/">borigil blog </a></div> <div class="mb-8 text-sm text-gray-500 dark:text-gray-400"><a target="_blank" rel="noopener noreferrer" href="https://github.com/mdrathik/tailwind-nuxtjs-starter-blog"></a></div></div></footer></div></section></div></div><script defer src="/_nuxt/static/1676364907/blog/2023-02-13-markdown-guide/state.js"></script><script src="/_nuxt/9b26931.js" defer></script><script src="/_nuxt/98c23f5.js" defer></script><script src="/_nuxt/e1cd483.js" defer></script><script src="/_nuxt/94fa5ae.js" defer></script><script src="/_nuxt/91baf54.js" defer></script><script src="/_nuxt/2d0c699.js" defer></script>
+  </body>
+</html>
